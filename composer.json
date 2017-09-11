@@ -1,0 +1,27 @@
+{
+    "name": "guyanyijiu/redis",
+    "description": "基于 Illuminate Redis 修改兼容PHP5.5，使用pimple/container",
+    "license": "MIT",
+    "keywords": ["redis", "php"],
+    "authors": [
+        {
+            "name": "liuchao",
+            "email": "php_liuchao@163.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/guyanyijiu/support"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "guyanyijiu/support": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "guyanyijiu\\Redis\\": "/src"
+        }
+    }
+}
